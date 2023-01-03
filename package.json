@@ -1,0 +1,23 @@
+{
+  "name": "truffle",
+  "version": "1.0.0",
+  "description": "Project for deploy smart contract to Goerli Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khactao27/truffle.git"
+  },
+  "author": "tao.duongkhac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khactao27/truffle/issues"
+  },
+  "homepage": "https://github.com/khactao27/truffle#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.4",
+    "dotenv": "^16.0.3"
+  }
+}
