@@ -1,5 +1,5 @@
-const Person_Contract = artifacts.require('Person')
+const Notification = artifacts.require('Notification')
 
 module.exports = function (deployer) {
-    deployer.deploy(Person_Contract)
+    deployer.deploy(Notification)
 }
